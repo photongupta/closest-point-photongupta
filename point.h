@@ -13,6 +13,8 @@ Location of organism: [10 94],  Closest food target : [18 76]
 Location of organism: [36 27],  Closest food target : [55 38]
 */
 #define NEW_LINE printf("\n")
+#define FOOD_POINTS {{18, 76}, {19, 66}, {89, 57}, {9, 71}, {55, 38}}
+#define POINTS_LENGTH 5
 
 typedef struct Point
 {

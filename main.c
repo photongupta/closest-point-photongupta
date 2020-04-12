@@ -4,8 +4,8 @@
 int main(void)
 
 {
-  Point food_points[5] = {{18, 76}, {19, 66}, {89, 57}, {9, 71}, {55, 38}};
-  int food_points_length = 5;
+  Point food_points[POINTS_LENGTH] = FOOD_POINTS;
+  int food_points_length = POINTS_LENGTH;
   Point organism_location;
   Point closest_food_location;
 
