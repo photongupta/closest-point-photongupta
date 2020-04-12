@@ -4,7 +4,6 @@
 int main(void)
 
 {
-  // [18 76] [19 66] [89 57] [9 71] [55 38]
   Point food_points[5] = {{18, 76}, {19, 66}, {89, 57}, {9, 71}, {55, 38}};
   int food_points_length = 5;
   Point organism_location;
@@ -12,7 +11,6 @@ int main(void)
 
   printf("Enter your position:");
   NEW_LINE;
-
   printf("x:");
   scanf("%d", &organism_location.x);
   printf("y:");
